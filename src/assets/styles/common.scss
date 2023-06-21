@@ -1,0 +1,156 @@
+$color-default: inherit;
+$font-family-default: inherit;
+$background-color-default: transparent;
+
+/* Links */
+/* Common */
+/* Form */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	box-sizing: border-box;
+	&::before {
+		box-sizing: border-box;
+	}
+	&::after {
+		box-sizing: border-box;
+	}
+}
+a {
+	text-decoration: none;
+	&:link {
+		text-decoration: none;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+	&:hover {
+		text-decoration: none;
+	}
+}
+aside {
+	display: block;
+}
+nav {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+section {
+	display: block;
+}
+main {
+	display: block;
+}
+h1 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+h2 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+h3 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+h4 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+h5 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+ul {
+	list-style: none;
+	li {
+		list-style: none;
+	}
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+svg {
+	max-width: 100%;
+	height: auto;
+}
+address {
+	font-style: normal;
+}
+input {
+	font-family: $font-family-default;
+	font-size: inherit;
+	color: $color-default;
+	background-color: $background-color-default;
+	&::-ms-clear {
+		display: none;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		outline: none;
+	}
+}
+textarea {
+	font-family: $font-family-default;
+	font-size: inherit;
+	color: $color-default;
+	background-color: $background-color-default;
+}
+button {
+	font-family: $font-family-default;
+	font-size: inherit;
+	color: $color-default;
+	background-color: $background-color-default;
+	display: inline-block;
+	box-shadow: none;
+	background-color: $background-color-default;
+	background: none;
+	cursor: pointer;
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		outline: none;
+	}
+	&::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+	}
+}
+select {
+	font-family: $font-family-default;
+	font-size: inherit;
+	color: $color-default;
+	background-color: $background-color-default;
+}
+input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: $background-color-default;
+	background: none;
+	cursor: pointer;
+}
+label {
+	cursor: pointer;
+}
+legend {
+	display: block;
+}
